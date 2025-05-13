@@ -62,14 +62,14 @@ export default function Navbar({
 
           {/* Logo - centered on mobile */}
           <div className="flex-1 flex justify-center md:justify-start">
-            <Link href="/">
-              <motion.a
+            <Link href="/" passHref>
+              <motion.div
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600"
               >
                 Abdi Tolesa
-              </motion.a>
+              </motion.div>
             </Link>
           </div>
 

@@ -93,7 +93,7 @@ const Contact = () => {
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
             Have a project in mind or want to discuss potential opportunities?
-            Feel free to reach out - I'd love to hear from you!
+            Feel free to reach out - I&apos;d love to hear from you!
           </p>
         </motion.div>
 

@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Particles from "./Particles";
 import { FiGithub, FiLinkedin, FiTwitter, FiMail } from "react-icons/fi";
+import Image from "next/image";
 
 export default function Hero() {
   const socialLinks = [
@@ -30,7 +31,7 @@ export default function Hero() {
           <div className="flex flex-col-reverse md:flex-row justify-center items-center mt-8 md:justify-start md:space-x-8">
             <div className="text-center md:text-left">
               <h1 className="text-4xl md:text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-                Hi, I'm{" "}
+                Hi, I&apos;m{" "}
                 <span className="text-black dark:text-white">Abdi Tolesa</span>
               </h1>
               <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
@@ -46,9 +47,11 @@ export default function Hero() {
                 precision.
               </motion.h2>
             </div>
-            <img
+            <Image
               src="/angel.jpg"
               alt="Profile Picture"
+              width={224} // Adjusted width for optimization
+              height={224} // Adjusted height for optimization
               className="w-40 h-40 md:w-56 md:h-56 rounded-full object-cover shadow-lg mb-6 md:mb-0"
             />
           </div>

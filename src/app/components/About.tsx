@@ -99,7 +99,7 @@ const About = () => {
               transition={{ delay: 0.4, duration: 0.5 }}
               className="text-3xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6"
             >
-              About{" "}
+              About&nbsp;
               <span className="text-purple-600 dark:text-purple-400">Me</span>
             </motion.h2>
 
@@ -109,7 +109,7 @@ const About = () => {
               transition={{ delay: 0.5, duration: 0.5 }}
               className="text-lg text-gray-600 dark:text-gray-300 mb-6"
             >
-              I'm a passionate full-stack developer with expertise in building
+              I&apos;m a passionate full-stack developer with expertise in building
               modern web applications. I love building innovative solutions to
               real-world problems using technology. My journey in software
               development has equipped me with skills in programming,
@@ -124,7 +124,7 @@ const About = () => {
             >
               My approach combines technical excellence with creative
               problem-solving to deliver solutions that are both functional and
-              visually appealing. I'm constantly learning new technologies to
+              visually appealing. I&apos;m constantly learning new technologies to
               stay at the forefront of web development.
             </motion.p>
 

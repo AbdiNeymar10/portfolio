@@ -1,17 +1,15 @@
 "use client";
 
-"use client";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { FiExternalLink, FiGithub } from "react-icons/fi";
 import Image from "next/image";
 
-// Project data
 const projects = [
   {
     title: "Airline Reservation System",
     description:
-      "A digital platform that enables users to search, book, and manage flight reservations efficiently..",
+      "A digital platform that enables users to search, book, and manage flight reservations efficiently.",
     tags: ["PHP", "HTML", "CSS", "Javascript"],
     image: "/plane.jpg",
     github: "https://github.com/Abdigithub13/",
@@ -20,10 +18,11 @@ const projects = [
   {
     title: "Car Rental System",
     description:
-      "A platform that enables users to book, manage, and track rental vehicles seamlessly..",
+      "A platform that enables users to book, manage, and track rental vehicles seamlessly.",
     tags: ["Flutter", "mySQL", "PHP"],
     image: "/car.jpg",
-    github: "https://github.com/Abdigithub/",
+    github: "https://github.com/Abdigithub13/",
+    live: "",
   },
   {
     title: "ERP System",
@@ -36,7 +35,6 @@ const projects = [
   },
 ];
 
-// Project card component
 const ProjectCard = ({
   project,
   index,
@@ -55,16 +53,16 @@ const ProjectCard = ({
       initial={{ opacity: 0, y: 50 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group"
+      className="bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 group cursor-pointer"
+      onClick={() => window.open(project.github, "_blank")}
     >
       <div className="h-48 bg-gray-200 dark:bg-gray-700 relative overflow-hidden">
         {project.image && (
           <Image
             src={project.image}
             alt={project.title}
-            layout="fill"
-            objectFit="cover"
-            className="transition-transform duration-500 group-hover:scale-105"
+            fill
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
           />
         )}
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-6">
@@ -100,28 +98,30 @@ const ProjectCard = ({
         </div>
 
         <div className="flex space-x-4">
-          <motion.a
-            href={project.github}
-            target="_blank"
-            rel="noopener noreferrer"
+          <motion.button
+            onClick={(e) => {
+              e.stopPropagation();
+              window.open(project.github, "_blank");
+            }}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.95 }}
             className="flex items-center text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
           >
             <FiGithub className="mr-2" /> Code
-          </motion.a>
+          </motion.button>
 
           {project.live && (
-            <motion.a
-              href={project.live}
-              target="_blank"
-              rel="noopener noreferrer"
+            <motion.button
+              onClick={(e) => {
+                e.stopPropagation();
+                window.open(project.live, "_blank");
+              }}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.95 }}
               className="flex items-center text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
             >
               <FiExternalLink className="mr-2" /> Live Demo
-            </motion.a>
+            </motion.button>
           )}
         </div>
       </div>
@@ -129,7 +129,6 @@ const ProjectCard = ({
   );
 };
 
-// Main projects component
 const Projects = () => {
   const [ref, inView] = useInView({
     threshold: 0.1,

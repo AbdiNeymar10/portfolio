@@ -36,7 +36,7 @@ const projects = [
   {
     title: "Type Racer Pro",
     description:
-      "Type Racer Pro is a web application designed to measure and improve typing performance. It challenges users with random text, tracks their speed in words per minute (WPM), and calculates accuracy in real time.",
+      "Type Racer Pro is a web application designed to measure and improve typing performance. It challenges users with random text, tracks their speed in words per minute.",
     tags: ["Next.js", "Tailwind CSS"],
     image: "/typing.jpg",
     github: "https://type-racer-pro-sa.vercel.app/",
@@ -45,7 +45,7 @@ const projects = [
   {
     title: "Movies Recommendation System",
     description:
-      "Movie Recommendation System suggests movies to users based on their ratings and preferences. It analyzes user input to provide personalized and relevant movie suggestions.",
+      "Movie Recommendation System suggests movies to users based on their ratings and preferences.",
     tags: ["Next.js", "Node.js", "Tailwind CSS", "Postgresql"],
     image: "/movie.webp",
     github: "https://github.com/AbdiNeymar10/",
@@ -54,7 +54,7 @@ const projects = [
   {
     title: "Job Portal",
     description:
-      "Job Portal is a web application that connects job seekers and employers. It allows users to post jobs, apply for positions, and manage applications through an intuitive and user-friendly interface.",
+      "Job Portal is a web application that connects job seekers and employers. It allows users to post jobs, apply for positions.",
     tags: ["React.js", "Node.js", "Tailwind CSS", "MongoDB"],
     image: "/job.jpg",
     github: "https://github.com/AbdiNeymar10/",

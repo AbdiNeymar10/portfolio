@@ -69,7 +69,7 @@ const Contact = () => {
   };
 
   const socialLinks = [
-    { icon: <FiGithub />, url: "https://github.com/Abdigithub13" },
+    { icon: <FiGithub />, url: "https://github.com/AbdiNeymar10" },
     {
       icon: <FiLinkedin />,
       url: "https://www.linkedin.com/in/abdi-tolesa-9464a2332/",
@@ -284,7 +284,7 @@ const Contact = () => {
                       href="tel:+1234567890"
                       className="text-purple-600 dark:text-purple-400 hover:underline"
                     >
-                      +251 234 567 89
+                      +251 975 044 084
                     </a>
                   </div>
                 </div>

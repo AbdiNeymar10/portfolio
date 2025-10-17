@@ -45,8 +45,8 @@ const About = () => {
             >
               <div className="w-full h-80 md:h-96 bg-gray-100 dark:bg-gray-800 rounded-xl overflow-hidden">
                 <Image
-                  src="/angel.jpg"
-                  alt="angel"
+                  src="/abdi.jpg"
+                  alt="abdi"
                   width={500}
                   height={500}
                   className="w-full h-full object-cover object-center"
@@ -109,10 +109,10 @@ const About = () => {
               transition={{ delay: 0.5, duration: 0.5 }}
               className="text-lg text-gray-600 dark:text-gray-300 mb-6"
             >
-              I&apos;m a passionate full-stack developer with expertise in building
-              modern web applications. I love building innovative solutions to
-              real-world problems using technology. My journey in software
-              development has equipped me with skills in programming,
+              I&apos;m a passionate full-stack developer with expertise in
+              building modern web applications. I love building innovative
+              solutions to real-world problems using technology. My journey in
+              software development has equipped me with skills in programming,
               problem-solving, and teamwork.
             </motion.p>
 
@@ -124,8 +124,8 @@ const About = () => {
             >
               My approach combines technical excellence with creative
               problem-solving to deliver solutions that are both functional and
-              visually appealing. I&apos;m constantly learning new technologies to
-              stay at the forefront of web development.
+              visually appealing. I&apos;m constantly learning new technologies
+              to stay at the forefront of web development.
             </motion.p>
 
             <motion.div

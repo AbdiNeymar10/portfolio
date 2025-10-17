@@ -12,7 +12,7 @@ const projects = [
       "A digital platform that enables users to search, book, and manage flight reservations efficiently.",
     tags: ["PHP", "HTML", "CSS", "Javascript"],
     image: "/plane.jpg",
-    github: "https://github.com/Abdigithub13/",
+    github: "https://github.com/AbdiNeymar10/",
     live: "",
   },
   {
@@ -21,7 +21,7 @@ const projects = [
       "A platform that enables users to book, manage, and track rental vehicles seamlessly.",
     tags: ["Flutter", "mySQL", "PHP"],
     image: "/car.jpg",
-    github: "https://github.com/Abdigithub13/",
+    github: "https://github.com/AbdiNeymar10/",
     live: "",
   },
   {
@@ -30,11 +30,37 @@ const projects = [
       "A software solution that helps organizations streamline core business processes like finance, HR, supply chain, and manufacturing.",
     tags: ["Next.js", "Spring boot", "Tailwind CSS", "Oracle"],
     image: "/erp.jpg",
-    github: "https://github.com/Abdigithub13/",
+    github: "https://github.com/AbdiNeymar10/",
+    live: "",
+  },
+  {
+    title: "Type Racer Pro",
+    description:
+      "Type Racer Pro is a web application designed to measure and improve typing performance. It challenges users with random text, tracks their speed in words per minute (WPM), and calculates accuracy in real time.",
+    tags: ["Next.js", "Tailwind CSS"],
+    image: "/typing.jpg",
+    github: "https://type-racer-pro-sa.vercel.app/",
+    live: "",
+  },
+  {
+    title: "Movies Recommendation System",
+    description:
+      "Movie Recommendation System suggests movies to users based on their ratings and preferences. It analyzes user input to provide personalized and relevant movie suggestions.",
+    tags: ["Next.js", "Node.js", "Tailwind CSS", "Postgresql"],
+    image: "/movie.webp",
+    github: "https://github.com/AbdiNeymar10/",
+    live: "",
+  },
+  {
+    title: "Job Portal",
+    description:
+      "Job Portal is a web application that connects job seekers and employers. It allows users to post jobs, apply for positions, and manage applications through an intuitive and user-friendly interface.",
+    tags: ["React.js", "Node.js", "Tailwind CSS", "MongoDB"],
+    image: "/job.jpg",
+    github: "https://github.com/AbdiNeymar10/",
     live: "",
   },
 ];
-
 const ProjectCard = ({
   project,
   index,
@@ -163,7 +189,7 @@ const Projects = () => {
           className="text-center mt-16"
         >
           <motion.a
-            href="https://github.com/Abdigithub13"
+            href="https://github.com/AbdiNeymar10"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Hero() {
   const socialLinks = [
-    { icon: <FiGithub />, url: "https://github.com/Abdigithub13" },
+    { icon: <FiGithub />, url: "https://github.com/AbdiNeymar10" },
     {
       icon: <FiLinkedin />,
       url: "https://www.linkedin.com/in/abdi-tolesa-9464a2332/",

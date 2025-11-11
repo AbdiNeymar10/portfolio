@@ -12,7 +12,7 @@ const projects = [
       "A digital platform that enables users to search, book, and manage flight reservations efficiently.",
     tags: ["PHP", "HTML", "CSS", "Javascript"],
     image: "/plane.jpg",
-    github: "https://github.com/AbdiNeymar10/",
+    github: "https://github.com/AbdiNeymar10/airline_ticket_reservation",
     live: "",
   },
   {
@@ -21,7 +21,7 @@ const projects = [
       "A platform that enables users to book, manage, and track rental vehicles seamlessly.",
     tags: ["Flutter", "mySQL", "PHP"],
     image: "/car.jpg",
-    github: "https://github.com/AbdiNeymar10/",
+    github: "https://github.com/AbdiNeymar10/car-rental",
     live: "",
   },
   {
@@ -30,7 +30,7 @@ const projects = [
       "A software solution that helps organizations streamline core business processes like finance, HR, supply chain, and manufacturing.",
     tags: ["Next.js", "Spring boot", "Tailwind CSS", "Oracle"],
     image: "/erp.jpg",
-    github: "https://github.com/AbdiNeymar10/",
+    github: "https://github.com/AbdiNeymar10/InternWebs",
     live: "",
   },
   {
@@ -48,7 +48,7 @@ const projects = [
       "Movie Recommendation System suggests movies to users based on their ratings and preferences.",
     tags: ["Next.js", "Node.js", "Tailwind CSS", "Postgresql"],
     image: "/movie.webp",
-    github: "https://github.com/AbdiNeymar10/",
+    github: "https://github.com/AbdiNeymar10/movie_recommendation",
     live: "",
   },
   {
@@ -57,7 +57,7 @@ const projects = [
       "Job Portal is a web application that connects job seekers and employers. It allows users to post jobs, apply for positions.",
     tags: ["React.js", "Node.js", "Tailwind CSS", "MongoDB"],
     image: "/job.jpg",
-    github: "https://github.com/AbdiNeymar10/",
+    github: "https://github.com/AbdiNeymar10/jobportal",
     live: "",
   },
 ];
